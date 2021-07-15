@@ -22,6 +22,7 @@ public class PlaceholderBuilder {
         placeholderList.add(new Placeholder("island_name", island.getName()));
         placeholderList.add(new Placeholder("island_owner", island.getOwner().getName()));
         placeholderList.add(new Placeholder("island_value", IridiumSkyblock.getInstance().getNumberFormatter().format(island.getValue())));
+        placeholderList.add(new Placeholder("island_level", IridiumSkyblock.getInstance().getNumberFormatter().format(island.getLevel())));
         placeholderList.add(new Placeholder("island_rank", IridiumSkyblock.getInstance().getNumberFormatter().format(island.getRank())));
         placeholderList.add(new Placeholder("island_members", IridiumSkyblock.getInstance().getNumberFormatter().format(island.getMembers().size())));
         placeholderList.add(new Placeholder("island_members_limit", IridiumSkyblock.getInstance().getNumberFormatter().format(memberLimit)));

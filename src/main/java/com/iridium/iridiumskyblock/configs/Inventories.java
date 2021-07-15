@@ -93,6 +93,7 @@ public class Inventories {
             "&b&l * &7Island Name: &b%island_name%",
             "&b&l * &7Island Rank: &b%island_rank%",
             "&b&l * &7Island Value: &b%island_value%",
+            "&b&l * &7Island Level: &b%island_level%",
             "&b&l * &7Netherite Blocks: &b%NETHERITE_BLOCK_AMOUNT%",
             "&b&l * &7Emerald Blocks: &b%EMERALD_BLOCK_AMOUNT%",
             "&b&l * &7Diamond Blocks: &b%DIAMOND_BLOCK_AMOUNT%",
